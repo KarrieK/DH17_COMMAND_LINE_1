@@ -23,6 +23,18 @@ OS X - If you're running OS X then you need to install iterm from the app store
 Linux - No need to do anything, terminals are built into the operating system.
 Windows - has a built-in shell, called Command Prompt, which emulates their older operating system, DOS. You can use Cgywin in Windows to emulate a bash environment
 
+## Commands we're going to cover ##
+
+* pwd - print working directory
+* ls - list
+* cd - change directory
+* mkdir - make directory
+* mv - move
+* cat - writes file to terminal
+* touch - creates a new text file
+* nano - writes to text file
+
+
 ## Getting started ##
 
 Ok first thing's first. Open up your terminal and take a look. There should be some text at the top of the terminal saying something like this:
@@ -92,7 +104,9 @@ So let's try `cat TED_CAN_2015.csv`
 
 What have we got?
 
-You can use CTRL+Z to kill the cat command at any point
+You can use CTRL+Z to kill the cat command at any point - way too much information to make any real sesne of it. 
+
+So let's use head to look at the first ten lines
 
 ## Documentation ##
 
@@ -116,13 +130,11 @@ Save and close
 
 ## Other unix commands  ##
 
-touch - creates a new text files
-nano - allows you to edit a text file
-cp - copies a file or directory
-rm - removes a file or directory
-man - gives you the manual for a command
-rmdir - removes an empty directory
-grep - general regular expression (like in R)
+* cp - copies a file or directory
+* rm - removes a file or directory
+* man - gives you the manual for a command
+* rmdir - removes an empty directory
+* grep - general regular expression (like in R)
 
 ## Next class  ##
 

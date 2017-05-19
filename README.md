@@ -68,11 +68,11 @@ What command will tell us if that worked?
 
 Let's move into that directory.
 
-## Moving forward  ##
+## Data Time  ##
 
-We are in our new directory so what now?
+Now we know the basics, let's grab some data and read it into our terminal. 
 
-Hopefully you grabbed the two files in the repo and they are downloaded onto your machines. Well I think we should take both those files and move them into the our new directory.
+Let's download the EU Tender Award Notices for 2015 from **https://data.europa.eu/euodp/en/data/dataset/ted-csv**
 
 ```$ cd ../..
 $ pwd
@@ -80,17 +80,39 @@ $ cd Downloads
 $ ls
 ```
 
-See your files? Oh good now let's move them using the mv or move command.
+See your file? Let's move it into the right folder using mv
 
-`$ mv (FOLDER NAME) ~/Desktop/command_line`
+`$ mv TED_CAN_2015.csv ~/Desktop/EIJC_Data`
 
 Now take a look, did it work?
 
 Let's read in those files into the terminal to see what's in them. To do that we're going to use cat.
 
-So let's try `cat HonoursLists2015_2016.csv`
+So let's try `cat TED_CAN_2015.csv`
 
 What have we got?
+
+You can use CTRL+Z to kill the cat command at any point
+
+## Documentation ##
+
+Let's create a text file and remind ourselves where our data came from and when we grabbed it in case we need to know later. 
+
+To do that we're going to use touch
+
+`$ touch doc.txt `
+
+Now we have created an empty text file - time to write something in it. 
+
+To edit a text file we use nano
+
+`nano doc.txt`
+
+Add the link we downloaded the data from and the date we downloaded it from
+
+To exit ctrl-x
+
+Save and close
 
 ## Other unix commands  ##
 
@@ -102,36 +124,18 @@ man - gives you the manual for a command
 rmdir - removes an empty directory
 grep - general regular expression (like in R)
 
-## Matching csvs  ##
+## Next class  ##
 
-Comparing csvs and searching for matches is really powerful and can lead to some great leads to follow. However be extremely careful false positives are very real and are a recipe for libel if results are not thoroughly check and validated.
-
-We are going to use the python library csvmatch to hunt for results. But we need to install pip a package manager and then the library csvmatch.
-
-Let's grab pip $ sudo easy_install pip
-
-To install type pip install csvmatch and wait.
-
-Let's grab our two files HonoursLists2015_2016.csv and Political_Donations_2014_2016.csv and see if there are any exact matches in there:
-
-$ csvmatch HonoursLists2015_2016.csv Political_Donations_2014_2016.csv
-
-So there is too much data there for the terminal to handle so we need to specify which columns.
-
-$ csvmatch Political_Donations_2014_2016.csv HonoursLists2015_2016.csv --fields1 DonorName --fields2 Name
-
-Hmm let's try to fuzzy match that and output the results to csv
-
-$ csvmatch Political_Donations_2014_2016.csv HonoursLists2015_2016.csv --fields1 DonorName --fields2 Name --fuzzy > results1.csv
+In the next class we're going to use the python library to take a closer look at our data
 
 ## Resources ##
 
 If you want to dig deeper and explore the awesome world of command line tools then here are a couple of links to get you started.
 
-csvmatch docs - https://github.com/maxharlow/csvmatch
 More unix commands - https://www.techonthenet.com/unix/basic/
 Data tools - https://github.com/clarkgrubb/data-tools
-##Contact me
+
+## Contact me ##
 
 Email: karrie.anne.kehoe@gmail.com Twitter: @karriekehoe
 

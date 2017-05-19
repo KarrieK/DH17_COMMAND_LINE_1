@@ -138,14 +138,15 @@ Save and close
 
 ## Next class  ##
 
-In the next class we're going to use the python library to take a closer look at our data
+In the next class we're going to use the python library csvkit to take a closer look at our data
 
 ## Resources ##
 
 If you want to dig deeper and explore the awesome world of command line tools then here are a couple of links to get you started.
 
-More unix commands - https://www.techonthenet.com/unix/basic/
-Data tools - https://github.com/clarkgrubb/data-tools
+* Cheat sheet - https://learncodethehardway.org/unix/bash_cheat_sheet.pdf
+* More unix commands - https://www.techonthenet.com/unix/basic/
+* Data tools - https://github.com/clarkgrubb/data-tools
 
 ## Contact me ##
 

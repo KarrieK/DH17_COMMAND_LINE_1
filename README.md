@@ -85,7 +85,7 @@ Let's move into that directory.
 
 Now we know the basics, let's grab some data and read it into our terminal. 
 
-Let's download the EU Tender Award Notices for 2015 from **https://data.europa.eu/euodp/en/data/dataset/ted-csv**
+Download the asylum data in the folder
 
 ```$ cd ../..
 $ pwd
@@ -95,13 +95,13 @@ $ ls
 
 See your file? Let's move it into the right folder using mv
 
-`$ mv TED_CAN_2015.csv ~/Desktop/EIJC_Data`
+`$ mv Asylum_Data.csv ~/Desktop/EIJC_Data`
 
 Now take a look, did it work?
 
 Let's read in those files into the terminal to see what's in them. To do that we're going to use cat.
 
-So let's try `cat TED_CAN_2015.csv`
+So let's try `cat Asylum_Data.csv`
 
 What have we got?
 

@@ -30,7 +30,8 @@ Windows - has a built-in shell, called Command Prompt, which emulates their olde
 * cd - change directory
 * mkdir - make directory
 * mv - move
-* cat - writes file to terminal
+* cat - outputs the file to the terminal
+* head - outputs the first ten lines to the terminal
 * touch - creates a new text file
 * nano - writes to text file
 

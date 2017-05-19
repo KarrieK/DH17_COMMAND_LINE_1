@@ -68,7 +68,7 @@ What command will tell us if that worked?
 
 Let's move into that directory.
 
-## Moving forward##
+## Moving forward  ##
 
 We are in our new directory so what now?
 
@@ -92,7 +92,7 @@ So let's try `cat HonoursLists2015_2016.csv`
 
 What have we got?
 
-## Other unix commands##
+## Other unix commands  ##
 
 touch - creates a new text files
 nano - allows you to edit a text file
@@ -102,7 +102,7 @@ man - gives you the manual for a command
 rmdir - removes an empty directory
 grep - general regular expression (like in R)
 
-## Matching csvs##
+## Matching csvs  ##
 
 Comparing csvs and searching for matches is really powerful and can lead to some great leads to follow. However be extremely careful false positives are very real and are a recipe for libel if results are not thoroughly check and validated.
 
@@ -124,7 +124,7 @@ Hmm let's try to fuzzy match that and output the results to csv
 
 $ csvmatch Political_Donations_2014_2016.csv HonoursLists2015_2016.csv --fields1 DonorName --fields2 Name --fuzzy > results1.csv
 
-##Resources
+## Resources ##
 
 If you want to dig deeper and explore the awesome world of command line tools then here are a couple of links to get you started.
 

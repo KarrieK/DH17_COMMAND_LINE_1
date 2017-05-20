@@ -19,9 +19,9 @@ If you run OS X or a Linux operating system then you are in luck, the unix comma
 
 ## What do you need? ##
 
-OS X - If you're running OS X then you need to install iterm from the app store
-Linux - No need to do anything, terminals are built into the operating system.
-Windows - has a built-in shell, called Command Prompt, which emulates their older operating system, DOS. You can use Cgywin in Windows to emulate a bash environment
+* OS X - If you're running OS X then you need a working bash shell. iTerm is a great terminal - you can grab it here https://www.iterm2.com/downloads.html
+* Linux - No need to do anything, terminals are built into the operating system.
+* Windows - has a built-in shell, called Command Prompt, which emulates their older operating system, DOS. You can use Cgywin in Windows to emulate a bash environment
 
 ## Commands we're going to cover ##
 
